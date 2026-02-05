@@ -1,0 +1,610 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		EFC362852F2C17A800765A23 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFC3626F2F2C17A700765A23 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFC362762F2C17A700765A23;
+			remoteInfo = ProgettoFinale;
+		};
+		EFC3628F2F2C17A800765A23 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFC3626F2F2C17A700765A23 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFC362762F2C17A700765A23;
+			remoteInfo = ProgettoFinale;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EFC362772F2C17A700765A23 /* ProgettoFinale.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProgettoFinale.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFC362842F2C17A800765A23 /* ProgettoFinaleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProgettoFinaleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFC3628E2F2C17A800765A23 /* ProgettoFinaleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProgettoFinaleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		EFC362B82F2C184400765A23 /* Exceptions for "ProgettoFinale" folder in "ProgettoFinale" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = EFC362762F2C17A700765A23 /* ProgettoFinale */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		EFC362792F2C17A700765A23 /* ProgettoFinale */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				EFC362B82F2C184400765A23 /* Exceptions for "ProgettoFinale" folder in "ProgettoFinale" target */,
+			);
+			path = ProgettoFinale;
+			sourceTree = "<group>";
+		};
+		EFC362872F2C17A800765A23 /* ProgettoFinaleTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ProgettoFinaleTests;
+			sourceTree = "<group>";
+		};
+		EFC362912F2C17A800765A23 /* ProgettoFinaleUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ProgettoFinaleUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EFC362742F2C17A700765A23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFC362812F2C17A800765A23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFC3628B2F2C17A800765A23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EFC3626E2F2C17A700765A23 = {
+			isa = PBXGroup;
+			children = (
+				EFC362792F2C17A700765A23 /* ProgettoFinale */,
+				EFC362872F2C17A800765A23 /* ProgettoFinaleTests */,
+				EFC362912F2C17A800765A23 /* ProgettoFinaleUITests */,
+				EFC362782F2C17A700765A23 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EFC362782F2C17A700765A23 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EFC362772F2C17A700765A23 /* ProgettoFinale.app */,
+				EFC362842F2C17A800765A23 /* ProgettoFinaleTests.xctest */,
+				EFC3628E2F2C17A800765A23 /* ProgettoFinaleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EFC362762F2C17A700765A23 /* ProgettoFinale */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFC362982F2C17A800765A23 /* Build configuration list for PBXNativeTarget "ProgettoFinale" */;
+			buildPhases = (
+				EFC362732F2C17A700765A23 /* Sources */,
+				EFC362742F2C17A700765A23 /* Frameworks */,
+				EFC362752F2C17A700765A23 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				EFC362792F2C17A700765A23 /* ProgettoFinale */,
+			);
+			name = ProgettoFinale;
+			packageProductDependencies = (
+			);
+			productName = ProgettoFinale;
+			productReference = EFC362772F2C17A700765A23 /* ProgettoFinale.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EFC362832F2C17A800765A23 /* ProgettoFinaleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFC3629B2F2C17A800765A23 /* Build configuration list for PBXNativeTarget "ProgettoFinaleTests" */;
+			buildPhases = (
+				EFC362802F2C17A800765A23 /* Sources */,
+				EFC362812F2C17A800765A23 /* Frameworks */,
+				EFC362822F2C17A800765A23 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFC362862F2C17A800765A23 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				EFC362872F2C17A800765A23 /* ProgettoFinaleTests */,
+			);
+			name = ProgettoFinaleTests;
+			packageProductDependencies = (
+			);
+			productName = ProgettoFinaleTests;
+			productReference = EFC362842F2C17A800765A23 /* ProgettoFinaleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EFC3628D2F2C17A800765A23 /* ProgettoFinaleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFC3629E2F2C17A800765A23 /* Build configuration list for PBXNativeTarget "ProgettoFinaleUITests" */;
+			buildPhases = (
+				EFC3628A2F2C17A800765A23 /* Sources */,
+				EFC3628B2F2C17A800765A23 /* Frameworks */,
+				EFC3628C2F2C17A800765A23 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFC362902F2C17A800765A23 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				EFC362912F2C17A800765A23 /* ProgettoFinaleUITests */,
+			);
+			name = ProgettoFinaleUITests;
+			packageProductDependencies = (
+			);
+			productName = ProgettoFinaleUITests;
+			productReference = EFC3628E2F2C17A800765A23 /* ProgettoFinaleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EFC3626F2F2C17A700765A23 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2620;
+				LastUpgradeCheck = 2620;
+				TargetAttributes = {
+					EFC362762F2C17A700765A23 = {
+						CreatedOnToolsVersion = 26.2;
+					};
+					EFC362832F2C17A800765A23 = {
+						CreatedOnToolsVersion = 26.2;
+						TestTargetID = EFC362762F2C17A700765A23;
+					};
+					EFC3628D2F2C17A800765A23 = {
+						CreatedOnToolsVersion = 26.2;
+						TestTargetID = EFC362762F2C17A700765A23;
+					};
+				};
+			};
+			buildConfigurationList = EFC362722F2C17A700765A23 /* Build configuration list for PBXProject "ProgettoFinale" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EFC3626E2F2C17A700765A23;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = EFC362782F2C17A700765A23 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EFC362762F2C17A700765A23 /* ProgettoFinale */,
+				EFC362832F2C17A800765A23 /* ProgettoFinaleTests */,
+				EFC3628D2F2C17A800765A23 /* ProgettoFinaleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EFC362752F2C17A700765A23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFC362822F2C17A800765A23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFC3628C2F2C17A800765A23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EFC362732F2C17A700765A23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFC362802F2C17A800765A23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFC3628A2F2C17A800765A23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EFC362862F2C17A800765A23 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFC362762F2C17A700765A23 /* ProgettoFinale */;
+			targetProxy = EFC362852F2C17A800765A23 /* PBXContainerItemProxy */;
+		};
+		EFC362902F2C17A800765A23 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFC362762F2C17A700765A23 /* ProgettoFinale */;
+			targetProxy = EFC3628F2F2C17A800765A23 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EFC362962F2C17A800765A23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = X5K9XS7HSL;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EFC362972F2C17A800765A23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = X5K9XS7HSL;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EFC362992F2C17A800765A23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G87C3QDQ9X;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ProgettoFinale/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = FCM;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Questa app ha bisogno della fotocamera per scattare foto.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Questa app ha bisogno della tua posizione per centrare la mappa.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Questa app utilizza il microfono per cercare paesi tramite la voce.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "Questa app utilizza il riconoscimento vocale per trascrivere ciò che dici nella barra di ricerca.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.FrancescoRomano.FCM---Food-Culture-Map";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EFC3629A2F2C17A800765A23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G87C3QDQ9X;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ProgettoFinale/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = FCM;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Questa app ha bisogno della fotocamera per scattare foto.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Questa app ha bisogno della tua posizione per centrare la mappa.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Questa app utilizza il microfono per cercare paesi tramite la voce.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "Questa app utilizza il riconoscimento vocale per trascrivere ciò che dici nella barra di ricerca.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.FrancescoRomano.FCM---Food-Culture-Map";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EFC3629C2F2C17A800765A23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G87C3QDQ9X;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.FrancescoRomano.FCM---Food-Culture-Map";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProgettoFinale.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ProgettoFinale";
+			};
+			name = Debug;
+		};
+		EFC3629D2F2C17A800765A23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G87C3QDQ9X;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.FrancescoRomano.FCM---Food-Culture-Map";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProgettoFinale.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ProgettoFinale";
+			};
+			name = Release;
+		};
+		EFC3629F2F2C17A800765A23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G87C3QDQ9X;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.FrancescoRomano.FCM---Food-Culture-Map";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ProgettoFinale;
+			};
+			name = Debug;
+		};
+		EFC362A02F2C17A800765A23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G87C3QDQ9X;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.FrancescoRomano.FCM---Food-Culture-Map";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ProgettoFinale;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EFC362722F2C17A700765A23 /* Build configuration list for PBXProject "ProgettoFinale" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFC362962F2C17A800765A23 /* Debug */,
+				EFC362972F2C17A800765A23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFC362982F2C17A800765A23 /* Build configuration list for PBXNativeTarget "ProgettoFinale" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFC362992F2C17A800765A23 /* Debug */,
+				EFC3629A2F2C17A800765A23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFC3629B2F2C17A800765A23 /* Build configuration list for PBXNativeTarget "ProgettoFinaleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFC3629C2F2C17A800765A23 /* Debug */,
+				EFC3629D2F2C17A800765A23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFC3629E2F2C17A800765A23 /* Build configuration list for PBXNativeTarget "ProgettoFinaleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFC3629F2F2C17A800765A23 /* Debug */,
+				EFC362A02F2C17A800765A23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EFC3626F2F2C17A700765A23 /* Project object */;
+}

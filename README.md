@@ -10,10 +10,10 @@ Liked -> Your favorite dishes will appear here
 
 Team members:
 🐼 Gabriel verde
-🐼 Lorenzo bovE
-🐼 Elio caleprico
-🐼 Francesco romano 
-🐼 ERFAN ZADPARESHOKOII
-🐼 MD. SHAMIEUL HAQUE SUJON
-🐼 NIMA SAMEISOOFIANI
-🐼 LUCA CAFARELLI
+🐼 Lorenzo bove
+🐼 Elio Caleprico
+🐼 Francesco Romano 
+🐼 Erfan Zadpareshokoii
+🐼 Md. Shamieul Haque Sujon
+🐼 Nima Sameisoofiani
+🐼 Luca Cafarelli

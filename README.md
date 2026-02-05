@@ -8,6 +8,19 @@ Game Tab -> You can test your knowledge trying to guess the location of the dish
 Detect Tab -> Here you can take a picture of a dish and the classifier will try to tell you its name
 Liked -> Your favorite dishes will appear here
 
+
+HOW TO INSTALL:
+After you downloaded the files from github, you also need to install the MlModel.
+To install the MlModel go to the link below and download "ResNetFood41_Fixed" file:
+https://drive.google.com/drive/folders/1iXqZaKjdItEhNfS5of5CM3dwW5tawRF7?usp=sharing
+Then put this file inside the "FCM/Progetto Finale" folder
+After that you're good to go!
+
+
+Info:
+In the drive you can also find our sketch of the app and the presentation keynote
+
+
 Team members:
 🐼 Gabriel verde
 🐼 Lorenzo bove
